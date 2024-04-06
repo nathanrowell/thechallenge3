@@ -92,7 +92,7 @@ export function Purge1(): JSX.Element {
                 <p>{selectedMaleNamesPart1.join(', ')}</p>
                 <p>{selectedFemaleNamesPart1.join(', ')}</p>
                 <h3>Part 2 Winners:</h3>
-                <p>Male Winners of Part 2: {selectedMaleNamesPart2.join(', ')}</p>
+                <p>{selectedMaleNamesPart2.join(', ')}</p>
                 <p>Female Winners of Part 2: {selectedFemaleNamesPart2.join(', ')}</p>
                 <h3>Remaining Male Names:</h3>
                 <p>{remainingMaleNamesBefore.join(', ')}</p>
